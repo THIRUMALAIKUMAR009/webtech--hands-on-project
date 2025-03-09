@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    /* border: 1px solid black; */
+    height: 100vh;
+    /* padding: 10px 10px; */
+}
+
+nav {
+    border: 1px solid black;
+    height: 45px;
+    padding-top: 25px;
+    /* border-radius: 50px; */
+    background-color: black;
+    background-repeat: round;
+    background-size: cover;
+    /* background-blend-mode: color-dodge; */
+    /* margin-bottom: 5px; */
+}
+
+a {
+    /* border: 1px solid black; */
+    text-decoration: none;
+    color: white;
+    /* border-radius: 20px; */
+    height: 40px;
+    width: 80px;
+    /* background-color: yellowgreen; */
+}
+
+#m1 {
+    /* border: 1px solid black; */
+    display: inline;
+    margin-right: 400px;
+    font-size: 20px;
+    word-spacing: 70px;
+    text-decoration: none;
+    /* text-align: center; */
+    margin-left: 30px;
+}
+
+#m2 {
+    /* border: 1px solid black; */
+    display: inline;
+    word-spacing: 20px;
+}
+
+#body1 {
+    background-color: rgb(148, 30, 30);
+    height: 100vh;
+}
+
+#con1 {
+    border: 1px solid black;
+    height: 350px;
+    width: 450px;
+    position: relative;
+    top: -420px;
+    left: 450px;
+    background-image: url(https://cdn.pixabay.com/photo/2022/01/24/20/01/salon-6964527_640.jpg);
+    background-repeat: round;
+    /* display: none; */
+    /* animation-name: key; */
+    /* animation-duration: 3s; */
+    display: inline-block;
+    transition-duration: 10s;
+    z-index: 1;
+    box-shadow: 25px 15px 5px;
+    border-radius: 16px;
+}
+
+#signin:hover~#con1 {
+    animation-name: key;
+    animation-duration: 3s;
+    display: inline-block;
+    transition-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes key {
+    from {
+        transform: translateY(-200px);
+    }
+    to {
+        transform: translateY(550px);
+    }
+}
+
+#st1 {
+    position: relative;
+    top: -270px;
+    left: 30px;
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    width: 400px;
+    text-align: center;
+    line-height: 35px;
+    opacity: .6;
+}
+
+@keyframes key {
+    from {
+        transform: translateY(-300px);
+    }
+    to {
+        transform: translateY(500px);
+    }
+}

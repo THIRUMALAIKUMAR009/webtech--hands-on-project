@@ -1,0 +1,28 @@
+#grid-container {
+    border: 1px solid black;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+
+.grid-item {
+    border: 1px solid black;
+    background-color: yellow;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#items6,
+#items8 {
+    grid-column: 4/5;
+}
+
+#items2,
+#items4,
+#items6,
+#items8,
+#items10,
+#items12 {
+    background-color: violet;
+}

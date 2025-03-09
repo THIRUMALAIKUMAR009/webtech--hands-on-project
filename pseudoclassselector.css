@@ -1,0 +1,71 @@
+/**unvisitedlink*/
+
+
+/*a:link {
+    color: red;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:active {
+    color: aqua;
+}*/
+
+
+/*a:hover {
+    font-size: xx-large;
+}
+
+p {
+    border: 1px solid black;
+    display: inline;
+}
+
+section {
+    border: 1px solid black;
+    display: inline;
+}
+
+span {
+    border: 1px solid black;
+    display: block;
+}*/
+
+
+/*button:hover {
+    background-color: yellow;
+}*/
+
+
+/*span {
+    border: 1px solid black;
+}
+
+button:hover+span {
+    display: block;
+}*/
+
+
+/*h1 {
+    display: none;
+}
+
+div {
+    border: 1px solid black;
+    height: 100vh;
+}
+
+button:hover+div {
+    background-color: red;
+}
+
+button:hover+div>h1 {
+    display: inline;
+    border: 1px solid black;
+}*/
+
+img {
+    opacity: 1.0;
+}

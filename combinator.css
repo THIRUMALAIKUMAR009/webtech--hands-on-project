@@ -1,0 +1,23 @@
+/*div p {
+    backgrund-color: red;
+}*/
+
+
+/*div > p{
+    backgrund-color: red;
+}*/
+
+
+/*span>p {
+    backgroun-color:red;
+}*/
+
+
+/*div+p {
+    background-color: orange;
+}*/
+
+
+/*div ~ p {
+    background-color: red;
+}*/

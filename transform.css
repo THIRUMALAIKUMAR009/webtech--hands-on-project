@@ -1,0 +1,32 @@
+            p {
+                border: 1px solid black;
+                width: 200px;
+                height: 200px;
+                transform: 2s;
+            }
+            
+            p:hover {
+                /*transform: translate(250px, 250px);*/
+                /*transform: translateX(250px);*/
+                /*transform: translateY(250px);*/
+                /*transform: rotate(50deg);*/
+                /*transform: rotate(-50deg);
+                /*transform: rotateX(80deg);*/
+                /*transform: rotateY(60deg);*/
+                /* transform: skew(55deg); */
+            }
+            /* #circle {
+                border-radius: 120px;
+                border: 40px solid blueviolet;
+                height: 150px;
+                width: 150px;
+                border-right-color: sandybrown;
+            }
+             */
+            /* button {
+                transition: 0.5s;
+            }
+             */
+            /* button:hover {
+                transform: scale(1.1, 1.1);
+            } */

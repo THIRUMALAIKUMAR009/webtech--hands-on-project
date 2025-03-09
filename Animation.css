@@ -1,0 +1,82 @@
+            /*P {
+                border: 1px solid black;
+                height: 150px;
+                width: 150px;
+                animation-name: para;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                position: relative;
+                animation-direction: alternate-reverse;
+            }*/
+            /*@keyframes para {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: greenyellow;
+    }
+}*/
+            /* @keyframes para {
+
+0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+}
+
+25% {
+    background-color: green;
+    top: 0px;
+    left: 250px;
+}
+
+50% {
+    background-color: aqua;
+    top: 250px;
+    left: 250px;
+}
+
+75% {
+    background-color: blue;
+    top: 250px;
+    left: 0px;
+}
+
+100% {
+    background-color: red;
+    top: 0px;
+    left: 0px;
+}
+}*/
+            /* button:hover+#para {
+                animation-name: para;
+                animation-duration: 0.5s;
+                animation-fill-mode: both;
+            }
+
+            button:hover~#para1 {
+                animation-name: para1;
+                animation-duration: 0.5s;
+                animation-fill-mode: both;
+            }
+
+            @keyframes para {
+                from {
+                    font-size: 25px
+                }
+                to {
+                    font-size: 50x;
+                }
+            }*/
+            
+            p {
+                height: 150px;
+                width: 150px;
+                border: 1px solid black;
+                transition-duration: 10s;
+                transition-timing-function: linear;
+            }
+            
+            p:hover {
+                transform: rotate(2500deg);
+            }

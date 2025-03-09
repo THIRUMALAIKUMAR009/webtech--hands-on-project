@@ -1,0 +1,86 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+#d2 {
+    text-align: center;
+}
+
+#d2 {
+    color: blue: font-size: xx-large;
+    /* font-weight: bolder; */
+}
+
+#d1 {
+    margin-left: 550px;
+}
+
+.b1 {
+    margin-top: 300px;
+}
+
+.b1 {
+    width: 20px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    animation: a1 1s ease-in-out infinite;
+}
+
+#div11 {
+    visibility: hidden;
+}
+
+.b1:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.b1:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.b1:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.b1:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.b1:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+.b1:nth-child(6) {
+    animation-delay: 1s;
+}
+
+.b1:nth-child(7) {
+    animation-delay: 1.2s;
+}
+
+.b1:nth-child(8) {
+    animation-delay: 1.4s;
+}
+
+.b1:nth-child(9) {
+    animation-delay: 1.6s;
+}
+
+.b1:nth-child(10) {
+    animation-delay: 1.8s;
+}
+
+@keyframes a1 {
+    0% {
+        height: 30px;
+    }
+    50% {
+        height: 80px;
+    }
+    100% {
+        height: 0px;
+    }
+}

@@ -1,0 +1,27 @@
+/*#para1{
+    background-color: red;
+}*/
+/*.para{
+    background-color: red;
+}*/
+/*p{
+    background-color: yellow !important;
+}
+/**{
+    border:1px solid black;
+}*/
+/*html,body,p{
+    border:1px solid black;
+}*/
+/*.para{
+    background-color: blue;
+}
+*{
+    background-color: red;
+}
+#para2{
+    background-color: green;
+}*/
+#para1,.article1,span{
+    background-color: red;
+}

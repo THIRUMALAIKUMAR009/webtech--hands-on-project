@@ -1,0 +1,155 @@
+#circle {
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    border-radius: 300px;
+    background-color: yellow;
+}
+
+#eye1 {
+    border: 1px solid white;
+    height: 100px;
+    width: 130px;
+    border-radius: 300px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+#eye2 {
+    border: 1px solid white;
+    height: 100px;
+    width: 130px;
+    border-radius: 300px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 50px;
+    position: relative;
+    top: -170px;
+    left: 160px;
+}
+
+#e1 {
+    border: 1px solid white;
+    height: 100px;
+    width: 120px;
+    left: 10px;
+    border-radius: 300px;
+    background-color: sandybrown;
+}
+
+#e2 {
+    border: 1px solid white;
+    height: 100px;
+    width: 120px;
+    border-radius: 400px;
+    background-color: sandybrown;
+}
+
+#b1 {
+    border: 1px solid black;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    width: 40px;
+    border-radius: 2400px;
+    background-color: black;
+    animation-name: a1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#b2 {
+    border: 1px solid black;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    width: 40px;
+    border-radius: 2400px;
+    background-color: black;
+    animation-name: a2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes a1 {
+    0% {
+        left: 0px;
+        top: 25px;
+    }
+    25% {
+        left: 25px;
+        right: 40px;
+    }
+    50% {
+        left: 40px;
+        top: 60px;
+    }
+    75% {
+        left: 60px;
+        right: 70px;
+    }
+    85% {
+        left: 80px;
+        right: 80px;
+    }
+    100% {
+        left: 70px;
+        right: 50px;
+    }
+}
+
+@keyframes a2 {
+    0% {
+        left: 0px;
+        top: 25px;
+    }
+    25% {
+        left: 25px;
+        right: 40px;
+    }
+    50% {
+        left: 40px;
+        top: 60px;
+    }
+    75% {
+        left: 60px;
+        right: 70px;
+    }
+    85% {
+        left: 80px;
+        right: 80px;
+    }
+    100% {
+        left: 70px;
+        right: 50px;
+    }
+}
+
+#image {
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 130px;
+    top: 200px;
+    left: 200px;
+    position: relative;
+    top: -190px;
+    left: 130px;
+    padding: 10px;
+    border-radius: 100px;
+    animation-name: a3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes a3 {
+    from {
+        transform: rotateX(50deg);
+    }
+    to {
+        transform: rotateX(-50deg);
+    }
+}

@@ -1,0 +1,41 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2021/09/08/20/45/bird-6607863_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#grand {
+    height: 100vh;
+}
+
+#grand>#item {
+    display: none;
+}
+
+#bird {
+    color: brown
+}
+
+#bird:hover~#item {
+    padding: 100px;
+    display: block;
+    height: 200px;
+    width: 400px;
+    margin: 60px;
+    margin-bottom: 500px;
+    opacity: 1;
+    border: 1px solid brown;
+    animation-name: birds;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-image: url("https://cdn.pixabay.com/photo/2023/09/03/15/19/annas-hummingbird-8230888_640.jpg");
+}
+
+@keyframes birds {
+    from {
+        margin-top: 100vh;
+    }
+    to {
+        margin-bottom: 500px;
+    }
+}

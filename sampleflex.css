@@ -1,0 +1,120 @@
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 1em 0;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    background-size: cover;
+    height: 200vh;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 1em 0;
+    color: #333;
+    height: 200vh
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 1em 0;
+    color: #eee;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #444;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#s1 {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+    background-size: cover;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.gift-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gift-card img {
+    width: 200px;
+    height: auto;
+}
+
+.gift-card-info {
+    width: 50%;
+}
+
+.redeem-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.footer .section {
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.footer h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    margin-bottom: 5px;
+}

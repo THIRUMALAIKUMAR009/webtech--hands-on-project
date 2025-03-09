@@ -1,0 +1,67 @@
+.common {
+    background-color: rgb(41, 63, 80);
+    border: 1px solid black;
+    height: 500px;
+    color: white;
+}
+
+#date {
+    position: relative;
+    top: 30px;
+}
+
+.fs {
+    position: relative;
+    top: 30px;
+}
+
+#sri {
+    display: flex;
+    justify-content: space-around;
+}
+
+#text2 {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+button {
+    color: white;
+    background-color: rgb(41, 63, 80);
+    border: 1px solid white;
+    height: 60px;
+    width: 10%;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+
+#common2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#last {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 100px;
+    background-color: rgb(41, 63, 80);
+    text-align: center;
+    top: 80px;
+}
+
+.ls {
+    position: relative;
+    top: 30px;
+}
+
+.o {
+    opacity: 0.5;
+}

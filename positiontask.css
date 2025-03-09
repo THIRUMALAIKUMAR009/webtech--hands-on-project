@@ -1,0 +1,39 @@
+    #mynavigation {
+        border: 1px solid black;
+        background-color: aqua;
+        position: sticky;
+        top: 0px;
+    }
+
+    .nav-item {
+        border: 1px solid black;
+        display: inline-block;
+        width: 255px;
+        height: 50px;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    #home_content {
+        border: 1px solid black;
+        height: 100vh;
+    }
+
+    #popup {
+        border: 1px solid green;
+        position: absloute;
+        left: 0px;
+        top: 50px;
+        width: 295px;
+        background-color: aquamarine;
+        display: none;
+    }
+
+    #item5 {
+        border: 1px solid red;
+        position: relative;
+    }
+
+    #anchor1:hover+#popup {
+        display: block;
+    }

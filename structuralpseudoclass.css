@@ -1,0 +1,21 @@
+/*div >p:first-child{
+    background-color: red;
+}
+div > p:last-child{
+    background-color: yellow;
+}
+div >p:nth-child(2){
+    background-color: aqua;
+}
+
+div>p:nth-child(2n-1) {
+    background-color: aqua;
+}*/
+
+div>i:first-of-type {
+    background-color: red;
+}
+
+div>i:lasyt-of-type {
+    background-color: yellow;
+}

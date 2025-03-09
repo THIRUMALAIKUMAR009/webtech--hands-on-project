@@ -1,0 +1,25 @@
+#a {
+    border: 1px solid black;
+    height: 35px;
+    text-align: center;
+    padding: 20px;
+    top: 30px;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+nav {
+    animation-name: b;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes b {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
