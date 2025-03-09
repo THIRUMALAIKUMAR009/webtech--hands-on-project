@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+           /*padding:15px;*/
+        }
+        table,th,td{
+         /* border-spacing: 12px;*/
+        }
+        table{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Sno</th>
+                <th>EmpName</th>
+                <th>Emp Location</th>
+                <th>Emp Current Loc</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>smith</td>
+                <td colspan="2">bangalore</td>
+                <!--<td>bangalore</td>-->
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Kennet</td>
+                <td>chennai</td>
+                <td rowspan="3">Trichy</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>david</td>
+                <td>madurai</td>
+                <!--<td>Trichy</td>-->
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>rose</td>
+                <td>coimbatore</td>
+                <!--<td>Trichy</td> */-->
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>

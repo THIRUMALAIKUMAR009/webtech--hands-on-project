@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APJ Abdul Kalam - Single Page Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        
+        nav a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        section {
+            display: none;
+        }
+        
+        section.active {
+            display: block;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Dr. APJ Abdul Kalam</h1>
+    </header>
+
+    <nav>
+        <a href="#intro" onclick="showSection('intro')">Introduction</a>
+        <a href="#early-life" onclick="showSection('early-life')">Early Life</a>
+        <a href="#contributions" onclick="showSection('contributions')">Contributions</a>
+        <a href="#legacy" onclick="showSection('legacy')">Legacy</a>
+    </nav>
+
+    <div class="container">
+        <section id="intro" class="active">
+            <h1>Introduction</h1>
+            <p>Dr. Avul Pakir Jainulabdeen Abdul Kalam, commonly known as Dr. APJ Abdul Kalam, was a prominent Indian scientist and the 11th President of India. He is widely regarded as the "Missile Man of India" due to his significant role in India's missile
+                and nuclear weapons programs. Throughout his life, he remained a humble leader who focused on empowering youth, advancing science, and promoting education. His contributions to India as both a scientist and a statesman have earned him
+                global respect and admiration.</p>
+        </section>
+
+        <section id="early-life">
+            <h1>Early Life</h1>
+            <p>Dr. Kalam was born on October 15, 1931, in Rameswaram, Tamil Nadu. He hailed from a modest background, with his father being a boat owner. Despite financial hardships, his parents ensured that he received a solid education. Dr. Kalam was a
+                curious and hardworking student, known for his interest in flight and aerospace. He later pursued aerospace engineering at the prestigious Madras Institute of Technology (MIT), which shaped his future contributions to India's defense and
+                space sectors.</p>
+        </section>
+
+        <section id="contributions">
+            <h1>Contributions</h1>
+            <p>Dr. Kalam's contributions to India's defense and space programs are unmatched. He was instrumental in the development of India's satellite launch vehicle (SLV) and ballistic missiles such as Agni and Prithvi. His work with ISRO and DRDO solidified
+                India's standing as a space-faring nation and a nuclear power. His leadership in the 1998 Pokhran-II nuclear tests was critical in making India a recognized nuclear state. Throughout his career, he emphasized the importance of self-reliance
+                in science and technology.</p>
+        </section>
+
+        <section id="legacy">
+            <h1>Legacy</h1>
+            <p>Dr. Kalam's legacy extends far beyond his scientific achievements. As the "People's President" from 2002 to 2007, he inspired millions with his vision for a developed India by 2020. Even after leaving the presidency, he remained actively involved
+                in education, frequently interacting with students and encouraging them to dream big. His books, such as "Wings of Fire" and "Ignited Minds," continue to inspire young people. He passed away on July 27, 2015, while delivering a lecture,
+                leaving behind a lasting legacy as an inspiring leader, educator, and visionary.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Dr. APJ Abdul Kalam Tribute</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            var sections = document.querySelectorAll('section');
+            sections.forEach(function(section) {
+                section.classList.remove('active');
+            });
+
+            // Show the selected section
+            var activeSection = document.getElementById(sectionId);
+            activeSection.classList.add('active');
+        }
+    </script>
+
+</body>
+
+</html>
